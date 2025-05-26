@@ -1,0 +1,5 @@
+n = int(input())
+arr = map(int, input().split())
+score = set(arr)
+score.remove(max(score))
+print(max(score))
